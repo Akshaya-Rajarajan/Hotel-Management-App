@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#272626">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FAF6F6"
+        android:backgroundTint="#FAF6F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.117"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="16dp"
+                android:background="#D8D4D4"
+                android:backgroundTint="#D8D4D4"
+                android:text="@string/activity_title"
+                android:textAlignment="center"
+                android:textColor="#034287"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="#BDBBBB"
+                android:backgroundTint="#D8D4D4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="245dp"
+                    android:layout_height="325dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="@string/party_details"
+                    android:textAlignment="center"
+                    android:textColor="#191414"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="322dp"
+                android:background="#FFFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/activity" />
+
+                <ImageView
+                    android:id="@+id/imageViewFoam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="225dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/foam_party" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bookButton"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="40dp"
+                android:backgroundTint="#CDBE26"
+                android:fontFamily="sans-serif-black"
+                android:onClick="bookingPage"
+                android:outlineProvider="none"
+                android:shadowColor="#E8C824"
+                android:text="@string/book"
+                android:textAlignment="center"
+                android:textColor="#EDE8E8"
+                android:textSize="20sp"
+                tools:ignore="OnClick" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginTop="16dp"
+                android:background="#D8D4D4"
+                android:backgroundTint="#D8D4D4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewEve"
+                    android:layout_width="245dp"
+                    android:layout_height="330dp"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="@string/child_activity"
+                    android:textAlignment="textStart"
+                    android:textColor="#191414"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageViewEve"
+                    android:layout_width="188dp"
+                    android:layout_height="242dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/child_activity" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#BDBBBB"
+                android:backgroundTint="#353434"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/subcription"
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="serif"
+                    android:text="@string/subscribe"
+                    android:textAlignment="center"
+                    android:textColor="#F8F5F5"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/subscribeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="135dp"
+                    android:backgroundTint="#CDBE26"
+                    android:fontFamily="sans-serif-black"
+                    android:onClick="Subscription"
+                    android:outlineProvider="none"
+                    android:shadowColor="#E8C824"
+                    android:text="@string/subscribe_button"
+                    android:textAlignment="center"
+                    android:textColor="#EDE8E8"
+                    android:textSize="20sp"
+                    tools:ignore="OnClick" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:background="#FFFCFC"
+                android:backgroundTint="#FFFCFC"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewEvent"
+                    android:layout_width="265dp"
+                    android:layout_height="260dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/wedding" />
+
+                <TextView
+                    android:id="@+id/textViewEvent"
+                    android:layout_width="245dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="@string/Events"
+                    android:textAlignment="center"
+                    android:textColor="#191414"
+                    android:textSize="19sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="405dp"
+                android:background="#D8D4D4"
+                android:backgroundTint="#D8D4D4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewSpa"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="serif"
+                    android:text="@string/spa_details"
+                    android:textAlignment="center"
+                    android:textColor="#191414"
+                    android:textSize="19sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageViewSpa"
+                    android:layout_width="188dp"
+                    android:layout_height="242dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/spa" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ScrollViewCount">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="404dp"
+                android:layout_height="222dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/kaldan_1" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="401dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="NEXT ->"
+                android:textAlignment="viewEnd"
+                android:textColor="#5A5858"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.987"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.191" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="8dp"
+                android:background="#E8E3E3"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/app_title"
+                android:textAlignment="center"
+                android:textColor="#230329"
+                android:textSize="28sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.051" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="306dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#CAE8A9"
+                android:backgroundTint="#E7EFDE"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/about_hotel"
+                android:textAlignment="center"
+                android:textColor="#666666"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:layout_constraintVertical_bias="0.124" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="#0C0909"
+                android:backgroundTint="#0C0909"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="28dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/address"
+                        android:textAlignment="viewStart"
+                        android:textColor="#F3F2ED"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/heading1"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/map_heading"
+                        android:textAlignment="viewStart"
+                        android:textColor="#F3F2ED"
+                        android:textSize="24sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/details"
+                        android:layout_width="199dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/location"
+                        android:textAlignment="viewStart"
+                        android:textColor="#F3F2ED"
+                        android:textSize="19sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="Link"
+                        android:text="@string/map"
+                        android:textAlignment="center"
+                        android:textColor="#F3F2ED"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:background="#0C0909"
+                        android:backgroundTint="#0C0C0C"
+                        android:text="@string/links"
+                        android:textAlignment="center"
+                        android:textColor="#F3F2ED"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="8dp"
+                            android:onClick="fbLink"
+                            android:src="@drawable/facebook_icon"
+                            android:contentDescription="@string/description_facebook_icon"/>
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="8dp"
+                            android:onClick="instaLink"
+                            android:src="@drawable/instagram_icon_png"
+                            android:contentDescription="@string/description_instagram_icon"/>
+
+                        <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="5dp"
+                            android:onClick="tripLink"
+                            android:src="@drawable/tripadvisor"
+                            android:contentDescription="@string/description_tripadvisor_icon"/>
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="153dp"
+                        android:layout_height="152dp"
+                        android:layout_marginStart="28dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/kaldan_logo" />
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">kaldan Hotel</string>
+    <string name="app_title">Welcome to Kaldan Hotels</string>
+    <string name="about_hotel">A marvelous home away from home. This sprawling 10 acre palatial property embodies the very picture of eminence and nobility that celebrates the resplendence of an age where royalty was revered and celebrated. Our artisans have created a palace that is an extravagant and luxurious amalgamation of Rajasthani architecture and palatial arts, exuding divine elegance and sophistication and bringing forth an experience of immortality."</string>
+    <string name="book">BOOK NOW</string>
+    <string name="address">\n OUR LOCATION \n </string>
+    <string name="map_heading"> <b>Getting Here </b> \n  </string>
+    <string name="location">
+        Kaldan Hotel \n
+        286 Grand Ave, Mackinac Island, MI, USA, 49757 \n \n
+        Tel: +1 847-634-0100 \n</string>
+    <string name="map">
+        <a href="https://www.google.com/maps/dir//Mackinac+Island,+MI+49757/@45.8515824,-84.6614097,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4d35f189aad9ae85:0xdfba14915cd6c1f7!2m2!1d-84.6189339!2d45.8491796?entry=ttu">Open in Google Maps</a>
+    </string>
+    <string name="links">\n FOLLOW US ON NETWORKS</string>
+    <string name="booking_heading">Please Fill In Your Details</string>
+    <string name="cust_name">Full Name</string>
+    <string name="name_hint">enter name.</string>
+    <string name="cust_number">Phone Number</string>
+    <string name="number_hint">10 digit number.</string>
+    <string name="email">Email</string>
+    <string name="email_hint">xyz@gmail.com</string>
+    <string name="fd">From Date</string>
+    <string name="fd_hint">MM/dd/yyyy.</string>
+    <string name="td">To Date</string>
+    <string name="td_hint">MM/dd/yyyy.</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">Go Back</string>
+    <string name="restaurant">\n Al Fresco Breakfast</string>
+    <string name="breakfast">Getting up in the morning and enjoying your favourite meal outdoors, in front of the pool and surrounded by palm trees is a delight. \n\n
+
+A very cozy breakfast buffet where you wont know what to choose first: bread, homemade jam, fresh fruit, cereals, cold meats, freshly cooked eggs, vegetables, pancakes, crêpes and Canarian sweets. \n\n
+
+There are also options for vegans, gluten intolerant, lactose intolerant, etc.</string>
+    <string name="Lunch">\n Lunch \n </string>
+    <string name="Lunch_detail">Enjoy the sun of the Mackinac Islands while your palate is delighted with a light lunch buffet, where fresh salads with local products, paella and barbecues are the protagonists.</string>
+    <string name="Eve_details">Enjoy a different theme every night at your buffet in the "Las Palmeras" restaurant. Special dishes from different countries that will take you around the world of flavours.\n\n
+
+And remember with each themed dinner you can enjoy shows or musical performances to fill the night with joy.</string>
+    <string name="Eve">\n Themed evenings</string>
+    <string name="amenities">Hotel Amenities \n</string>
+    <string name="wifi">Premium Free WiFi</string>
+    <string name="bar">Lounge/Bar</string>
+    <string name="res">Restaurant</string>
+    <string name="pets">Pets Friendly</string>
+    <string name="camera">Surveillance Security</string>
+    <string name="valet">Valet Parking</string>
+    <string name="atm">ATM/Cash Machine</string>
+    <string name="cool">Air-Conditioned</string>
+    <string name="hall">Banquet Hall</string>
+    <string name="grill">Outdoor-grill</string>
+    <string name="deck">Sun Deck</string>
+    <string name="roomservice">24/7 Room Service</string>
+    <string name="houseKeeping">House-Keeping Daily</string>
+    <string name="pool">Indoor Pool</string>
+    <string name="event">Meeting/Event Space</string>
+    <string name="spa">Massage Therapist and SPA</string>
+    <string name="activity">\n Family fun \n and experiences \n</string>
+    <string name="activity_details">We propose you to enjoy the \n different animation and entertainment \n options that surprise our guests every week: \n shows, magic, live music, games, sports activities \n during the day, and special entertainment for children.\n Whether in our indoor or outdoor facilities, \n we offer a wide range of sporting activities, both in summer and winter. </string>
+    <string name="more_details"><u>See More Info</u></string>
+    <string name="activity_title">\n Dance, music and pool parties</string>
+    <string name="party_details">\n At Green Garden Ecoresort we have planned endless activities, games and crafts for the little ones to stimulate their creative side during the holidays:\n bracelet and macaroni necklace workshops, paper flowers, pirate hats, \n drawing, painting, face painting, treasure hunts and much more! \n \n
+
+Every Thursday we celebrate our magnificent \"Pool Party\" where we introduce our staff and where our customers can enjoy the foam party or our inflatable dolphin and taste our outdoor barbecue.</string>
+    <string name="child_activity"><b>Children\'s Activities </b>
+\n \n <i>We have planned a host of activities for the little ones to stimulate their creative side during the holidays: bracelet and macaroni necklace workshops, paper flowers, treasure hunts, face painting, pirate hats, drawing, painting and much more! \n \n
+
+            Crafts, games, workshops, outdoor activities and a mini disco complete our range of fun activities.</i></string>
+    <string name="Events">\n <b>Weddings and seasonal events</b> \n \n
+    Elevating your happily ever after is what we do best that\’s why our expert team works together to ensure that the catering menu is customized to your taste, the overall design is exactly what you want, and the ceremony is unforgettable.
+
+ \n \n Contact us today to learn more.</string>
+    <string name="spa_details">\n <b>Enjoy a spa day</b> \n \n
+        Just steps from your room, discover an oasis of relaxation.
+        In partnership with Windy City Massage, the Kaldan Hotel offers onsite spa services including personalized massages, body treatments, and facials.
+        \n Treat yourself to high-quality services without ever leaving your hotel. To book, call 312-946-3000. </string>
+    <string name="twin_name"><b>Deluxe Twin</b></string>
+    <string name="twin_price">$600/night</string>
+    <string name="king_price">$800/night</string>
+    <string name="twin_description">\n Deluxe, First Floor or Ground Floor, breakfast included, twin with balcony - 357 sqft \n <b>Max Guests: 2</b></string>
+    <string name="king"><b>Deluxe King</b></string>
+    <string name="king_description">\n Deluxe, Ground Floor, breakfast included, pool facing, king with balcony and bathtub - 485 Sqft \n <b>Max Guests: 3</b></string>
+    <string name="subscribe">\n SUBSCRIBE TO THE NEWSLETTER IF YOU WANT TO BE THE FIRST TO RECEIVE OUR OFFERS</string>
+    <string name="subscribe_button">SUBSCRIBE</string>
+    <string name="dialog_title">\n Subscribe to our newsletter!</string>
+    <string name="dialog_name">Name</string>
+    <string name="dialog_email">Email</string>
+    <string name="hint_name">Enter name</string>
+    <string name="hint_email">Enter valid email</string>
+    <string name="description_facebook_icon">Facebook</string>
+    <string name="description_instagram_icon">Instagram</string>
+    <string name="description_tripadvisor_icon">TripAdvisor</string>
+    <string name="check_subscription">\n Check Your Subscription \n</string>
+
+
+</resources>
